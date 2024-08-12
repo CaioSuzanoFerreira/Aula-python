@@ -1,6 +1,3 @@
-[10: 13] André
-Nakamatsu
-Rocha
 
 
 def exercicio_1(lista):
@@ -102,6 +99,30 @@ def exercicio_10(lista_num):
         soma += lista_num[i]
     print(f'A média aritmética dos elementos na lista é: {soma / len(lista_num)}')
     return soma / len(lista_num)
+
+def soma_de_numeros():
+    lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    soma = 0
+    for i in lista:
+        soma += i
+    print(soma)
+
+def adiciona_num_lista():
+    lista = []
+    for i in range(10):
+        num = input(f"Diga o {i+1}° número: ")
+        while not num.isnumeric():
+            print("Deve ser um número")
+            num = input(f"Diga o {i+1}° número: ")
+        num = int(num)
+        lista.append(num)
+    print(list)
+
+
+
+
+
+
 # exercicio_1([2, 3, 4, 6])
 # Retorna a soma dos elementos em uma array
 # exercicio_2([2, 4, 5, 6, 1, 41, 78, 98])
@@ -123,4 +144,6 @@ def exercicio_10(lista_num):
 # Retorna a array em ordem alfabética
 # exercicio_10([1, 2, 3, 4])
 # Retorna a média aritmética dos números em uma array
+# adiciona_num_lista():
+
 

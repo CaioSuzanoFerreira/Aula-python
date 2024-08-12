@@ -1,6 +1,3 @@
-[09: 39] André
-Nakamatsu
-Rocha
 
 
 def exercicio1():
@@ -318,6 +315,8 @@ def exercicio15_array():
           f'O Jorel recebeu {votos_jorel} votos\n'
           f'{votos_branco} pessoas ({votos_branco / i:.2f}%) votaram em Branco\n'
           f'{votos_nulo} ({votos_nulo / i:.2f}%) pessoas votaram em Nulo')
+
+
 # exercicio1 ()
 # Identificando se uma nota está entre 0 e 10, tratamento de código
 # exercicio2 ()
