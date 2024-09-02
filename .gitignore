@@ -1,0 +1,51 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Test and coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Pytest
+.cache
+*.pytest_cache
+
+# Migrations
+migrations/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Build
+build/
+dist/
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*.sublime-workspace
+
+# Environment variable files
+.env
+*.env
+
+# IDE-specific
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
